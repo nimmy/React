@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container{
+  width: 1180px;
+  margin: 0 auto;
+}
+.todo-container{
+  width: 40%;
+  background: #fff;
+}
+.todo-container ul{
+  padding: 0;
+  margin: 0;
+}
+.todo-container ul li{
+  width: 100%;
+  list-style: none;
+  color: #000;
+  border-bottom: 1px solid #f7f7f7;
+  padding: 10px 0 15px;
+  text-align: left;
+  font-size: 16px;
+  display: block;
+}
+.todo-container ul li p{display: inline;}
+.todo-container input[type=checkbox]{
+  margin: 0 20px;
+}
+.todo-container span{
+  margin-left: 20px;
+}
+.product-panel-container{
+  width: 90%;
+  background: #fff;
+}
+.product-panel{
+  float: left;
+  width: 30%;
+  height: 250px;
+  margin: 1% 1.5%;
+  color: #000;
+  border: 1px solid #f7f7f7;
+}
+.product-panel p, .product-panel a{
+  font-size: 14px;  
+}
+.product-panel .price, .product-panel .active, .product-panel .disabled{
+  background-color: #ffe000;
+  border: 1px solid #d8be00;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  float: left;
+  margin: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.product-panel .price:hover{
+  background-color: #fff4a7;
+  border: 1px solid #d8be00;
+}
+.product-panel .active:hover{
+  background-color: rgb(85, 26, 139);
+  border: 1px solid #d7e4e8;
+  color: #fff;
+}
+.product-panel .discription{
+  min-height: 70px;
+}
+.product-panel .active, .product-panel .disabled,.product-panel .disabled:hover{
+  background-color: #d7e4e8;
+  border: 1px solid #d2d2d2;
+}
+.product-panel .disabled{
+  color: #bfbfbf;
+  cursor: default;
+}
+.product-panel .btn-box{
+  display: inline-block;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Ram",
+        "salary":"60000" ,
+        "email":"Ram@gmail.com" ,
+        "contact":"9998887770",
+        "married":"Yes"
+    },
+    {
+        "name":"Shayam",
+        "salary":"65000" ,
+        "email":"shayam@gmail.com" ,
+        "contact":"999",
+        "married":"Yes"
+    },
+    {
+        "name":"Ram",
+        "salary":"60000" ,
+        "email":"Ram@gmail.com" ,
+        "contact":"9998887770",
+        "married":"Yes"
+    },
+    {
+        "name":"Ram",
+        "salary":"60000" ,
+        "email":"Ram@gmail.com" ,
+        "contact":"9998887770",
+        "married":"Yes"
+    },
+    {
+        "name":"Ram",
+        "salary":"60000" ,
+        "email":"Ram@gmail.com" ,
+        "contact":"9998887770",
+        "married":"Yes"
+    }
+]
