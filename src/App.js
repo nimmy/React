@@ -10,6 +10,8 @@ import WelcomeMsgClassBased from './components/WelcomeMsgClassBased';
 import ClassBasedToDoApp from './components/ClassbasedTODOApp';
 import CounterClass from './components/CounterClass';
 import SearchLinkedIn from './components/SearchLinkedIn';
+import ConditionalRendering from './components/CondtionalRendering';
+import Gallery from './components/Gallery';
 
 class App extends Component {
   render() {
@@ -48,7 +50,11 @@ class App extends Component {
           <CounterClass />
           ***************************************************
           <SearchLinkedIn />
-        </header>
+          ***************************************************
+          <ConditionalRendering />
+          ***************************************************
+          <Gallery />
+    </header>
       </div>
     );
   }

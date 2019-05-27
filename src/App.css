@@ -1,3 +1,8 @@
+body{
+  font-size: 1em;
+}
+
+
 .App {
   text-align: center;
 }
@@ -112,4 +117,34 @@
 }
 .linkedin-search-box ul li img{
   width: 100%;
+}
+  
+
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+ 
+
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+}
+.my-masonry-grid img{
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+@media (max-width : 768px){
+  .container{
+    width: 100%
+  }
 }
